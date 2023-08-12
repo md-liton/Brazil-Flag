@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.brazil{
+    padding: 80px 0;
+}
+.green{
+    height: 300px;
+    width: 600px;
+    background: green;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow{
+    height: 200px;
+    width: 200px;
+    background: yellow;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #24316C;
+    position: relative;
+    transform: rotate(-45deg);
+}
+.progreso{
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.progreso h6{
+    padding: 3px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+}
+.progreso h6 span{
+    padding: 0px 3px;
+}
